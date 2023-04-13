@@ -91,7 +91,7 @@ if __name__ == "__main__":
     np.random.seed(42)
 
     """ Load the data """
-    data_path = "C:/Users/maks_/Desktop/ML_data/DRIVE" #The path should be in English otherwise it gives an error
+    data_path = "C:/Users/maks_/Desktop/ML_data/TeamProject2nd/DRIVE" #The path should be in English otherwise it gives an error
     (train_x, train_y), (test_x, test_y) = load_data(data_path)
 
     print(f"Train: {len(train_x)} - {len(train_y)}")
